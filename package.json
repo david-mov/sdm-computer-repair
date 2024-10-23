@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "jasmine",
-    "start": "live-server"
+    "dev": "live-server"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "jasmine": "^5.1.0",
-    "live-server": "^1.2.2"
+    "live-server": "^1.2.0"
   }
 }

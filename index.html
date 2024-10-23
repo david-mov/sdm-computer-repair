@@ -3,9 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Computer Repair Services</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+
 </head>
 <body>
-    <h1>Proyecto M1</h1>
+
+<header>
+    <h1>SDM Computer Repair Services</h1>
+    <p>Your trusted partner for all computer issues!</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>About Me</h2>
+        <p>Hi! I'm David Movsichoff, a passionate computer technician. I am dedicated to providing reliable and affordable computer repair services to keep your devices running smoothly.</p>
+    </section>
+
+    <section>
+        <h2>Services Offered</h2>
+        <div class="services">
+            <div class="service">
+                <i class="fas fa-shield-alt fa-2x"></i>
+                <h3>Virus Removal</h3>
+                <p>Eliminate harmful viruses and malware from your system.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-cogs fa-2x"></i>
+                <h3>Hardware Repair</h3>
+                <p>Fix and replace faulty hardware components.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-box fa-2x"></i>
+                <h3>Software Installation</h3>
+                <p>Install and configure software applications as per your needs.</p>
+            </div>
+            <div class="service">
+                <i class="fas fa-recycle fa-2x"></i>
+                <h3>Data Recovery</h3>
+                <p>Recover lost or damaged data from your devices.</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Share Your Experience</h2>
+        <p>We’d love to hear your thoughts on our service!</p>
+        <form id="review-form">
+            <label for="name">Your Name (optional):</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="name"/><br/>
+         
+            <label>Rate Our Service:</label>
+            <div class="rating">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div><br/>
+         
+            <label for="opinion">Tell Us About Your Experience:</label>
+            <textarea id="opinion" name="opinion" rows="4" placeholder="Share your thoughts about our service..."></textarea><br/>
+         
+            <button type="submit">Submit Your Review</button>
+         
+            <p class="success-message" style="display:none;">Thank you for your review! We appreciate your feedback.</p>
+         </form>
+         
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2023 SDM Computer Repair Services | All Rights Reserved</p>
+</footer>
+
+<script src="scripts/index.js"></script>
+
 </body>
 </html>
